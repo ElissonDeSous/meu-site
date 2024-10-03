@@ -1,10 +1,10 @@
-import Fundo from "./img/fundo.jpg"
+import ConteudoPrincipal from "../../Componente/conteudoHome/Conteudo1"
+import Conteudo2 from "../../Componente/conteudoHome/Conteudo2"
 export default function Home(){
     return(
-      <section>
-        <div className=" text-white bg-black h-[500px] flex flex-col items-center justify-center">
-           <h1 className="text-7xl">Desenvolvedor <span className="text-red-600">full-stack</span> </h1>
-         </div>
-        </section>
+      <div>
+             <ConteudoPrincipal/>
+             <Conteudo2/>
+      </div>
     )
 }
