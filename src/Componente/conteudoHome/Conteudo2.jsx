@@ -8,7 +8,7 @@ import Postgres from "./img/postgres.png"
 
 export default function Conteudo2(){
     return(
-        <div className="bg-[#181C14] lg:h-[500px] flex flex-col justify-around items-center">
+        <div className="bg-[#181C14] lg:h-[400px]  flex flex-col justify-around items-center">
             <h1 className="text2xl lg:text-5xl text-2xl text-center m-7 font-bold text-white ">Tecnologias Utilizadas</h1>
            <div className="flex lg:flex-row flex-wrap flex-col justify-around lg:w-[900px] ">
               <div className="">

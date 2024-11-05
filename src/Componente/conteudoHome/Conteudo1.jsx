@@ -2,7 +2,7 @@ import Elisson from "../../Paginas/Home/img/elisson.jpg"
     export default function ConteudoPrincipal(){
         return(
         <section>
-            <div className=" text-white bg-black md:h-[500px] h-[800px] flex flex-wrap  justify-around p-2">
+            <div className=" text-white bg-black lg:h-[500px] h-[800px] flex flex-wrap  justify-around p-2">
             
                  <div className="flex flex-col flex-wrap justify-center items-center">
                  <img src={Elisson}  className="w-[200px] md:w-[300px] rounded-full px-2" alt="" />
