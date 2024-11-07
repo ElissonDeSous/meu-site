@@ -82,7 +82,16 @@ export default function Header(){
                 </div>     
                   
                
+                <div className="lg:flex hidden justify-around items-center w-[200px]">
+                <Link to="https://www.linkedin.com/in/elisson-sousa-dos-sntos-6234b9209/" target="_blank">
+                <img src={Linkedin} className="w-[30px]" alt="" />
+                </Link>
                
+
+                <Link to="https://github.com/ElissonDeSous" target="blank">
+                   <img  src={Github} className="w-[50px]" width="100px"  alt="" />
+                </Link>
+           </div>
             </nav>
            
            
