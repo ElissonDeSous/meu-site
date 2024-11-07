@@ -1,21 +1,24 @@
 export default function Projetos(){
     return(
-        <div className="h-[600px] flex flex-wrap bg-black text-white">
-            <div className="lg:flex flex-col justify-center items-center  flex-wrap">
-                <h1 className="text-5xl flex items-center flex-wrap h-[100px]">Meus Projetos</h1>
-                <div className="flex m-8 w-[900px] "> 
-                    <div className="mr-8 bg-stone-700 w-[500px] h-[300px]">
+       <div className=" bg-black text-white lg:flex flex flex-col justify-center items-center">
+        <h1 className="mt-20 text-2xl md:4xl">Meus projetos</h1>
+           <div className="mt-20 lg:grid  lg:grid-cols-3  lg:w-[1000px] flex flex-col">
+              <div className="h-[300px]   mb-6 w-[300px] bg-gray-300">
 
-                    </div>
-                    <div className="mr-8 bg-stone-700 w-[500px] h-[300px]">
+              </div>
+              <div className="h-[300px]  mb-7 w-[300px] bg-gray-300 ">
 
-                    </div>
-                    <div className= " mr-8 bg-stone-700 w-[500px] h-[300px]">
+              </div>
+              <div className="  h-[300px] mb-7  w-[300px] bg-gray-300">
 
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
+              </div>
+              <div className="h-[300px] mb-7  w-[300px] bg-gray-300">
+
+              </div>
+              <div className="h-[300px] mb-7  w-[300px] bg-gray-300">
+
+              </div>
+           </div>
+       </div>
     )
 }
